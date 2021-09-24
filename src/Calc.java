@@ -9,7 +9,7 @@ public class Calc {
         char operation = scanner.next().charAt(0);
         double y = Double.parseDouble(scanner.next());
         double result = calc(x, y, operation);
-        String str = scanner.next();
+        String str = scanner.nextLine();
         if (Objects.equals(str, "")) {
             System.out.println("Результат операции: " + result);
         } else {
